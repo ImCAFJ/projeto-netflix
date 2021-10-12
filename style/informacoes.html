@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações</title>
+
+    <link rel="stylesheet" href="responsive.css">
+
+    <!--owlcss-->
+    <link rel="stylesheet" href="Owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="Owl/owl.theme.default.min.css">
+
+</head>
+
+<style>
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+         background-color:black;
+         font-family: 'Arial', Times, serif;
+         color: white;
+    }
+
+    .botao{
+    background-color: rgba(0, 0, 0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+ 
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+    .secao{
+        font-size: 25px;
+        background: linear-gradient(rgba(0,0,0,.90), rgba(0,0,0,.90)100%), url('../img/gabybackground.jpg');
+        height: 400px;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 15px 0 15px;
+    
+    }
+
+    
+</style>
+
+<body>
+
+    <header>
+        <a href="/style/index.html"><button role="button" class="botao">
+            <i class="fas fa-home"></i>
+            HOME
+        </button></a>
+    </header>
+
+    <section class="secao"> Baseado no livro "The Little Dollhouse", de Jan Lebeyka, A Casa Mágica da Gabby 
+    acompanha a pequena Gabby e seu gatinho de estimação Pandy. Juntos, eles vivem aventuras 
+    mirabolantes, encontrando outros animaizinhos irresistíveis e descobrindo novas surpresas 
+    a cada episódio. Arte e magia se misturam nessa colorida casa de bonecas - e a diversão 
+    está mais do que garantida.</section>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="/img/miniatura.jpg" alt="miniatura">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/miniatura1.jpg" alt="miniatura">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/miniatura2.jpg" alt="miniatura">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/miniatura3.jpg" alt="miniatura">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/miniatura4.jpg" alt="miniatura">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/miniatura5.jpg" alt="miniatura">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/miniatura6.jpg" alt="miniatura">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/miniatura7.jpg" alt="miniatura">
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/24bbab3d12.js" crossorigin="anonymous"></script><!--coloca os pequenos icones-->
+    <script src="/js/arowl/jquery.min.js"></script>
+    <script src="/js/arowl/owl.carousel.min.js"></script>
+    <script src="/js/arowl/main.js"></script>
+
+
+    
+</body>
+</html>
